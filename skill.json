@@ -1,0 +1,41 @@
+{
+  "name": "genpark-omnichannel-ecommerce-growth-m-and-a-integrator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Omnichannel e-commerce brand aggregator M&A financial modeling, 3PL logistics synergy consolidator, and retail shelf-expansion predictor.",
+  "author": "genpark",
+  "category": "brand-aggregator",
+  "tags": [
+    "ecommerce-mna",
+    "brand-roll-up",
+    "3pl-synergy",
+    "ebitda-modeling",
+    "moonshot-brands"
+  ],
+  "inputs": {
+    "target_brand_name": {
+      "type": "string"
+    },
+    "annual_amazon_gmv_usd": {
+      "type": "number"
+    },
+    "net_margin_pct": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "mna_model_id": {
+      "type": "string"
+    },
+    "shared_3pl_logistics_synergy_usd": {
+      "type": "number"
+    },
+    "post_acquisition_run_rate_ebitda_usd": {
+      "type": "number"
+    },
+    "walmart_target_retail_expansion_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
